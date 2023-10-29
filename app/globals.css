@@ -1,0 +1,50 @@
+@tailwind base;
+
+h1 {
+  @apply font-bold text-5xl text-[var(--text)];
+}
+
+h2 {
+  @apply font-bold text-3xl text-[var(--text)];
+}
+
+p {
+  @apply text-base text-[var(--text)] text-justify;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text: #fafffe;
+  --background: #032b27;
+  --primary: #f43e53;
+  --secondary: #043e38;
+  --accent: #f21c35;
+}
+
+body {
+  @apply bg-[var(--background)];
+}
+
+#search {
+  @apply shadow-[0_0_25px_#607472] text-[var(--secondary)] min-w-[300px] pl-[50px] pr-[25px] py-2.5 rounded-[25px];
+  outline: none;
+}
+
+main {
+  @apply justify-start;
+}
+
+select {
+  border-radius: 25px;
+  width: 150px;
+}
+
+aside {
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondary);
+  border-radius: 20px;
+  box-shadow: 0 0 10px var(--secondary);
+}
