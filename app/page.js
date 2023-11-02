@@ -1,4 +1,5 @@
 import { React } from "react";
+import Games from "./games";
 import Search from "@/app/components/search";
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
           </p>
         </section>
 
-        <section className="w-2/3 px-10">
+        <section className="w-2/3 h-[65vh] px-10">
           <h2>Critérios:</h2><br></br>
           <div className="flex justify-between">
             <select>
@@ -47,6 +48,7 @@ export default function Home() {
             </select>
           </div><br></br>
           <aside className="flex">
+            <Games />
           </aside>
         </section>
       </main>
