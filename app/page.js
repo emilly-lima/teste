@@ -10,7 +10,7 @@ export default function Home() {
       <aside>
         <Navbar />
       </aside>
-      <div className="mt-[100px] mb-[20px] w-full flex justify-center">
+      <div className="mt-[100px] mb-[10px] w-full flex justify-center">
         <Mesa />
       </div>
     </div>
