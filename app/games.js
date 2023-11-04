@@ -3,8 +3,8 @@ import React from "react"
 export default function Games() {
 
     return (
-        <div className="p-6 overflow-x-scroll hyphens-auto">
-           
+        <div className="bg-slate-600 w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 p-4 rounded-3xl">
+           aaaaaaaaaaaaaaaa
         </div>
 
     );
