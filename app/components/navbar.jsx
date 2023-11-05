@@ -3,7 +3,7 @@ import Search from "@/app/components/search";
 
 const Navbar = () => {
     return (
-        <div className="bg-slate-900 fixed left-0 top-0 w-full z-10 ease-in duration-300">
+        <div className="bg-slate-900 left-0 top-0 w-full z-10 ease-in duration-300">
             <div className="max-w-[1240px] m-auto flex justify-between items-center p-4">
                 <ol>
                     <li>
