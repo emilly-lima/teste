@@ -3,6 +3,7 @@
 import Navbar from "@/app/components/navbar";
 import { useRouter } from "next/navigation";
 import { Button } from "@mui/material";
+import CarouselCustomNavigation from "@/app/components/carrossel";
 import TrendingSlider from "@/app/components/TrendingSlider";
 export default function Home() {
 
@@ -14,7 +15,7 @@ export default function Home() {
         <Navbar />
       </aside>
       <div className="m-auto w-full flex flex-col justify-center">
-        <TrendingSlider />
+        <CarouselCustomNavigation />
         <Button onClick={() => router.push("/test")}>Página de Teste</Button>
       </div>
     </div>
